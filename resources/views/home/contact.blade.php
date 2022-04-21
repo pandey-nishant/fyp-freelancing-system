@@ -18,7 +18,7 @@
 <main id="wt-main" class="wt-main wt-haslayout wt-innerbgcolor">
 
 <div class="row">
-
+<!-- Google map integration 
     <div class="col-md-6">
     <section id="google-map-area">
         <div class="container">
@@ -29,8 +29,8 @@
             </div>
         </div>
     </section>
-    </div>
-
+    </div> -->
+    
     <div class="col-md-6">
     <section id="content" class="section-padding">
     <div class="container">
@@ -41,6 +41,7 @@
     <h2 class="contact-title">
     Write Your Queries to Us
     </h2>
+
     <div class="row">
     <div class="col-md-12">
     <div class="row">

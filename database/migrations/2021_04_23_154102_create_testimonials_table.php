@@ -13,7 +13,7 @@ class CreateTestimonialsTable extends Migration
      */
     public function up()
     {
-        Schema::create('reviews_feedbacks', function (Blueprint $table) {
+        Schema::create('testimonials', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('image');

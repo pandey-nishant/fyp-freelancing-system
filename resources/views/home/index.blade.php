@@ -19,7 +19,7 @@
 										<h1><span>Hire expert personnels</span> for any service, at your HOME</h1>
 									</div>
 									<div class="wt-description">
-										<p>Consectetur adipisicing elit sed dotem eiusmod tempor incuntes ut labore etdolore maigna aliqua enim.</p>
+										<p> Hire Anything Anywhere.</p>
 									</div>
 								</div>
 								<form class="wt-formtheme wt-formbanner">
@@ -55,25 +55,25 @@
 									</div>
 									<div class="wt-videocontent">
 										<span>See For Yourself!<em>How it works &amp; experience the ultimate joy.</em></span>
-									</div>
+									</div> -->
 								</div> --}}
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--Home Banner End-->
-			<!--Main Start-->
+			<!-- Home Banner End-->
+			<!--Main Start
 			<main id="wt-main" class="wt-main wt-haslayout">
-				<!--Categories Start-->
+				<!--Categories Start -->
 				<section class="wt-haslayout wt-main-section">
 					<div class="container">
 						<div class="row justify-content-md-center">
 							<div class="col-xs-12 col-sm-12 col-md-8 push-md-2 col-lg-6 push-lg-3">
 								<div class="wt-sectionhead wt-textcenter">
 									<div class="wt-sectiontitle">
-										<h2>Explore Categories</h2>
-										<span>Browse Services by categories</span>
+										<h2>Top Categories</h2>
+										<span>  </span>
 									</div>
 								</div>
 							</div>
@@ -111,10 +111,11 @@
 								<div class="wt-companydetails">
 									<div class="wt-companycontent">
 										<div class="wt-companyinfotitle">
-											<h2>Start As Service Holder</h2>
+											<h2>Join Us As Service Seeker</h2>
 										</div>
 										<div class="wt-description">
-											<p>Consectetur adipisicing elit sed dotem eiusmod tempor incune utnaem labore etdolore maigna aliqua enim poskina ilukita ylokem lokateise ination voluptate velit esse cillum.</p>
+											<p>Hi, if you are searching for any kind of service whether it is cleaning your house or building a website we have all services available on our platform
+.</p>
 										</div>
 										<div class="wt-btnarea">
 											<a href="{{url('/register')}}" class="wt-btn">Join Now</a>
@@ -122,10 +123,10 @@
 									</div>
 									<div class="wt-companycontent">
 										<div class="wt-companyinfotitle">
-											<h2>Start As Service Provider</h2>
+											<h2>Join Us As A Service Provider</h2>
 										</div>
 										<div class="wt-description">
-											<p>Consectetur adipisicing elit sed dotem eiusmod tempor incune utnaem labore etdolore maigna aliqua enim poskina ilukita ylokem lokateise ination voluptate velit esse cillum.</p>
+											<p>Hi, if you are looking for jobs or freelance work to earn money while showcasing your skills just click on the click fill the form and our representative will guide you all..</p>
 										</div>
 										<div class="wt-btnarea">
 											<a href="{{url('/contact')}}" class="wt-btn">Join Now</a>
@@ -136,7 +137,7 @@
 						</div>
 					</div>
 				</section>
-				<!--Join Company Info End-->
+				<!--JAbout the company -->
 				<!--Limitless Experience Start-->
 				<section class="wt-haslayout wt-main-section">
 					<div class="container">
@@ -150,12 +151,12 @@
 								<div class="wt-experienceholder">
 									<div class="wt-sectionhead">
 										<div class="wt-sectiontitle">
-											<h2>Limitless Experience</h2>
-											<span>Roam Around With Your Business</span>
+											<h2>Freelancing Service Platforms</h2>
+											<span>Get your Job Done</span>
 										</div>
 										<div class="wt-description">
-											<p>Dotem eiusmod tempor incune utnaem labore etdolore maigna aliqua enim poskina ilukita ylokem lokateise ination voluptate velit esse cillum dolore eu fugiat nulla pariatur lokaim urianewce.</p>
-											<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumed perspiciatis.</p>
+											<p>We provide a marketplace for all sort services for corporations and freelance. A platform for them to provide their work and services and get paid accordingly. We aim to get all your work done without any hassles..</p>
+											<p>Through our platform employers can hire freelancers in a variety of fields, including electrician, plumber, software developer, and so on.</p>
 										</div>
 										{{-- <ul class="wt-appicon">
 											<li>
@@ -176,4 +177,5 @@
 					</div>
 				</section>
 			</main>
+			
 	@include('include.footer')

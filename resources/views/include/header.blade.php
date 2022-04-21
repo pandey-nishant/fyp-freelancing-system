@@ -49,7 +49,7 @@
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<strong class="wt-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="">Freelancing Service Platform</a></strong>
+                                    <a href="{{ url('/')}}">Freelancing Service Platform</a></strong>
 								<div class="wt-rightarea">
 									<nav id="wt-nav" class="wt-nav navbar-expand-lg">
 										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,18 +60,18 @@
 												<li class="nav-item {{ request()->path() === 'about' ? 'active' : '' }}">
 													<a href="{{ url('/')}}">HOME</a>
 												</li>
-                                                <li class="nav-item {{ request()->path() === 'about' ? 'active' : '' }}">
+                                                <!-- <li class="nav-item {{ request()->path() === 'about' ? 'active' : '' }}">
 													<a href="{{ url('how-we-work')}}">GETTING STARTED</a>
-												</li>
+												</li> -->
                                                 <li class="nav-item {{ request()->path() === 'services' ? 'active' : '' }}">
 													<a href="{{ url('services') }}">SERVICES</a>
 												</li>
                                                 <li class="nav-item {{ request()->path() === 'service/providers' ? 'active' : '' }}">
 													<a href="{{ url('/service-providers') }}">SERVICE PROVIDERS</a>
 												</li>
-                                                <li class="nav-item {{ request()->path() === '/testimonial' ? 'active' : '' }}">
+                                                <!-- <li class="nav-item {{ request()->path() === '/testimonial' ? 'active' : '' }}">
 													<a href="{{ url('/testimonial') }}">TESTIMONIALS</a>
-												</li>
+												</li> -->
 												<li class="nav-item {{ request()->path() === 'contact' ? 'active' : '' }}">
 													<a href="{{ url('contact') }}">CONTACT US</a>
 												</li>

@@ -3,6 +3,7 @@
 
 
 <head>
+@include('include.header')
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,9 +18,13 @@
         <div class="row justify-content-md-center">
             <div class="col-xs-12 col-sm-12 col-md-8 push-md-2 col-lg-6 push-lg-3">
                 <div class="wt-innerbannercontent">
-                    <div class="wt-title"><h2>REGISTER</h2></div>
+                    <div class="wt-title"><h2>Register As Customer</h2></div>
                     <ol class="wt-breadcrumb">
-                        <li class="wt-active">Already Have an Account? <a href="{{ url('/login')}}">Login.</a> </li>
+                        <li class="wt-active">Already Have an Account?<br>
+                        <br>
+                         <a href="{{ url('/login')}}">Login.</a> </li>
+                         <break> 
+                         <a href="{{ url('/')}}">Home</a> </li>
                     </ol>
                 </div>
             </div>
@@ -35,7 +40,7 @@
 <div class="col-lg-5 col-md-12 col-xs-12">
 <div class="register-form login-area">
 <h3>
-Register
+Register Now & Get Your Job Done
 </h3>
 <form method="POST" action="{{ route('register') }}" class="login-form">
     @csrf
@@ -106,5 +111,6 @@ Register
 </div>
 </section>
 </main>
+@include('include.footer')
 </body>
 </html>

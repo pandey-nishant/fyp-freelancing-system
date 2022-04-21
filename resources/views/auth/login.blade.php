@@ -3,7 +3,7 @@
 
 
 <head>
-
+@include('include.header')
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Login</title>
@@ -17,7 +17,7 @@
                     <div class="wt-innerbannercontent">
                         <div class="wt-title"><h2>LOGIN</h2></div>
                         <ol class="wt-breadcrumb">
-                            <li class="wt-active">New to Freelancing Service Platform? <a href="{{ url('/register')}}">Register Instead.</a> </li>
+                            <li class="wt-active"><p>Don't have A Account ?</p> <a href="{{ url('/register')}}">Signup .</a> </li>
                         </ol>
                     </div>
                 </div>
@@ -76,6 +76,7 @@
     </div>
     </section>
     </main>
+    @include('include.footer')
 </body>
 </html>
 
