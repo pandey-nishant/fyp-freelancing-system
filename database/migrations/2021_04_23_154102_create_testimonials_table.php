@@ -15,10 +15,10 @@ class CreateTestimonialsTable extends Migration
     {
         Schema::create('testimonials', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
-            $table->string('image');
+            $table->string('name')->nullable();
+            $table->string('image')->nullable();
             $table->string('position')->nullable();
-            $table->string('text', 1000);
+            $table->string('text', 1000)->nullable();
 
             $table->unsignedBigInteger('service_request_id')->nullable();
             $table->foreign('service_request_id')->references('id')->on('service_requests')->onDelete('cascade');

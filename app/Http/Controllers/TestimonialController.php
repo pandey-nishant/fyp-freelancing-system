@@ -48,14 +48,14 @@ class TestimonialController extends Controller
     public function store(Request $request)
     {
 
-        $this->validate($request,[
-            'name' => 'required',
-            'image' => 'image|required',
-            'position'=> 'required',
-            'text'=> 'required',
-            'service_request_id' => 'required',
-            'status'=> 'required',
-        ]);
+        // // // $this->validate($request,[
+        // //     'name' => 'required',
+        // //     // 'image' => 'image|required',
+        // //     'position'=> 'required',
+        // //     'text'=> 'required',
+        // //     'service_request_id' => 'required',
+        // //     'status'=> 'required',
+        // ]);
 
         if($request->hasFile('image')) {
 

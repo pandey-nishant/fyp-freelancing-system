@@ -15,17 +15,17 @@ Customer Services Section
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h5>Completed Services List</h5>
+                    <h5>Completed Orders </h5>
                 </div>
                     <div class="card-body">
                         <table class="table table-hover table-bordered">
                             <thead style="font-size:14px;">
                                 <th>S.N.</th>
-                                <th>Service Title</th>
-                                <th>Service Provider </th>
-                                <th>Service Category</th>
-                                <th>Service Location</th>
-                                <th>Service Date</th>
+                                <th>Service </th>
+                                <th>Provider </th>
+                                <th> Category</th>
+                                <th> Location</th>
+                                <th> Date</th>
                                 <th>Status</th>
                                 {{-- <th>Action</th> --}}
 
@@ -43,7 +43,7 @@ Customer Services Section
                                     <td> {{ $data->service_location}}</td>
                                     <td> {{ $data->service_date}}</td>
                                     <td>
-                                        <span style="color:green;">Completed</span>
+                                        <span style="color:black;">Completed</span>
                                     </td>
 
 
@@ -56,7 +56,7 @@ Customer Services Section
                             @else
                             <tbody>
                                 <tr>
-                                    <td colspan="7"> None of your services are in completed state. After one is completed, it is displayed here.</td>
+                                    <td colspan="7"> Your Services Hasn't been Completed Yet.</td>
                                 </tr>
                             </tbody>
                             @endif

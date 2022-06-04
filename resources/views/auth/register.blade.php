@@ -111,6 +111,6 @@ Register Now & Get Your Job Done
 </div>
 </section>
 </main>
-@include('include.footer')
 </body>
 </html>
+@include('include.footer')

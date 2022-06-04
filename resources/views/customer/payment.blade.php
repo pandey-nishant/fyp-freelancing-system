@@ -15,18 +15,18 @@ Customer Services Section
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h5>Paid Services List</h5>
+                    <h5>Transactions</h5>
                 </div>
                     <div class="card-body">
                         <table class="table table-hover table-bordered">
                             <thead style="font-size:14px;">
                                 <th>S.N.</th>
-                                <th>Service Title</th>
-                                <th>Service Provider </th>
-                                <th>Service Category</th>
-                                <th>Service Location</th>
-                                <th>Service Date</th>
-                                <th>Payment Status</th>
+                                <th>Title</th>
+                                <th>Provider </th>
+                                <th> Category</th>
+                                <th>Location</th>
+                                <th> Date</th>
+                                <th> Status</th>
                                 <th>Actions</th>
 
                             </thead>

@@ -22,41 +22,8 @@
 										<p> Hire Anything Anywhere.</p>
 									</div>
 								</div>
-								<form class="wt-formtheme wt-formbanner">
-									<fieldset>
-										<div class="form-group">
-											<input type="text" name="fullname" class="form-control" placeholder="Search From Our Offered Services...">
-											<div class="wt-formoptions">
-												{{-- <div class="wt-dropdown">
-													<span>In: <em class="selected-search-type">Freelancers </em><i class="lnr lnr-chevron-down"></i></span>
-												</div>
-												<div class="wt-radioholder">
-													<span class="wt-radio">
-														<input id="wt-freelancers" data-title="Freelancers" type="radio" name="searchtype" value="freelancer" checked>
-														<label for="wt-freelancers">Freelancers</label>
-													</span>
-													<span class="wt-radio">
-														<input id="wt-jobs"  data-title="Jobs" type="radio" name="searchtype" value="job">
-														<label for="wt-jobs">Jobs</label>
-													</span>
-													<span class="wt-radio">
-														<input id="wt-company"  data-title="Companies" type="radio" name="searchtype" value="job">
-														<label for="wt-company">Companies</label>
-													</span>
-												</div> --}}
-												<a href="#" class="wt-searchbtn"><i class="lnr lnr-magnifier"></i></a>
-											</div>
-										</div>
-									</fieldset>
-								</form>
-								{{-- <div class="wt-videoholder">
-									<div class="wt-videoshow">
-										<a data-rel="prettyPhoto[video]" href="https://www.youtube.com/watch?v=J37W6DjqT3Q"><i class="fa fa-play"></i></a>
-									</div>
-									<div class="wt-videocontent">
-										<span>See For Yourself!<em>How it works &amp; experience the ultimate joy.</em></span>
-									</div> -->
-								</div> --}}
+								<!--  -->
+								<!-- -}} -->
 							</div>
 						</div>
 					</div>

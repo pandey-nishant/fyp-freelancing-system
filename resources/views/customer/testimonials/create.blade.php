@@ -1,4 +1,4 @@
-
+<!-- 
 @extends('customer.layouts.app')
 
 
@@ -29,7 +29,7 @@ Add Review
                     </div>
                     @endif
 
-                    <a href="{{ route('view.testimonial')}}"> <i class="fas fa-backward"></i>  Go Back</a>
+                    <!-- <a href="{{ route('view.testimonial')}}"> <i class="fas fa-backward"></i>  Go Back</a> -->
                 </div>
                 <div class="card-body">
 
@@ -38,7 +38,7 @@ Add Review
                         @csrf
 
                         <div class="form-group">
-                        <label for="name" required>Please Enter Your Full Name: <span style="color:red;font-size:15px;">&nbsp;*</span></label><br>
+                        <label for="name" required> Name: <span style="color:red;font-size:15px;">&nbsp;*</span></label><br>
                         <input type="text" name="name" class="form-control" value="{{Auth::user()->name}}" ><br>
 
                             <label for="position" required>Enter your Designation: <span style="color:red;font-size:15px;">&nbsp;*</span></label><br>
@@ -59,13 +59,7 @@ Add Review
                           <textarea name="text" class="form-control" id="description" cols="117" rows="5"></textarea>
                             </div>
 
-                        <div >
-                            <label for="Select Image">Select Your Display Image: <span style="color:red;font-size:15px;">&nbsp;*</span></label><br>
-
-                            <input type='file' onchange="readURL(this);" name="image"  />
-                            <br><br>
-                            <img id="blah" alt="Uploaded Image will be displayed here." style="width: 100px;height:100px;" />
-                         </div><br>
+                
                          <label>Category Status</label>
                          <div class="form-check">
                                                     <input class="form-check-input" type="radio" name="status" id="exampleRadios1" value="1" checked>
@@ -81,10 +75,10 @@ Add Review
                             </label>
                         </div>
 
-                        <br>
+                         <br>
                         <input type="submit" class="btn btn-primary" value="Add">
-                        <a href="{{ route('view.testimonial')}}" class="btn btn-danger">  Go Back</a>
-                    </form>
+                        <a href="{{ route('view.testimonial')}}" class="btn btn-danger">  Go Back</a> 
+                    </form> 
 
                 </div>
             </div>
@@ -98,7 +92,7 @@ Add Review
 
 @endsection
 
-  @section('scripts')
+  <!-- @section('scripts')
   <script>
       function readURL(input) {
             if (input.files && input.files[0]) {
@@ -110,8 +104,8 @@ Add Review
                 };
 
                 reader.readAsDataURL(input.files[0]);
-            }
+            } -->
         }
   </script>
 
-  @endsection
+  @endsection -->

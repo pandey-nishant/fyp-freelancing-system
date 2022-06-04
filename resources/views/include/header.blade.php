@@ -30,12 +30,8 @@
 	<script src="{{asset('assets')}}/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body class="wt-login">
-	<!--[if lt IE 8]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<!-- Preloader Start -->
-	<div class="preloader-outer">
-		<div class="loader"></div>
+	
+	<!-- >
 	</div>
 	<!-- Preloader End -->
 	<!-- Wrapper Start -->
@@ -69,8 +65,6 @@
                                                 <li class="nav-item {{ request()->path() === 'service/providers' ? 'active' : '' }}">
 													<a href="{{ url('/service-providers') }}">SERVICE PROVIDERS</a>
 												</li>
-                                                <!-- <li class="nav-item {{ request()->path() === '/testimonial' ? 'active' : '' }}">
-													<a href="{{ url('/testimonial') }}">TESTIMONIALS</a>
 												</li> -->
 												<li class="nav-item {{ request()->path() === 'contact' ? 'active' : '' }}">
 													<a href="{{ url('contact') }}">CONTACT US</a>

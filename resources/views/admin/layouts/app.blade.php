@@ -25,11 +25,15 @@
 
 <body id="page-top">
 
+
     <!-- Page Wrapper -->
     <div id="wrapper">
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <div class="logo" style="background-color:black;">
+>
+            
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/')}}">
@@ -46,17 +50,17 @@
 
             {{-- <hr class="sidebar-divider"> --}}
 
-            <!-- Heading -->
+            <!-- Heading
               {{-- <div class="sidebar-heading">
                  Site Management
-             </div> --}}
-
-             <!-- Divider -->
+             </div> --}} -->
+     <!-- Banner Image  -->
+             <!-- Divider
              {{-- <li class="nav-item {{ 'admin/banner'== request()->path() ? 'active' :'' }}{{ 'admin/add-banner-image'== request()->path() ? 'active' :'' }}">
                 <a class="nav-link" href="{{ url('admin/banner')}}">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Banner Images</span></a>
-            </li> --}}
+            </li> --}} -->
 
             <!-- Nav Item - Dashboard -->
 
@@ -70,26 +74,22 @@
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item {{ 'admin//service/requests'== request()->path() ? 'active' :'' }}  ">
                 <a class="nav-link" href="{{ url('admin/service/requests') }}">
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
                     <span>Service Requests </span></a>
             </li>
             <li class="nav-item {{ 'admin/service'== request()->path() ? 'active' :'' }}  {{ 'admin/add/service'== request()->path() ? 'active' :'' }}">
                 <a class="nav-link" href="{{ url('admin/service') }}">
-                    <i class="fa fa-folder-open" aria-hidden="true"></i>
                     <span>Services Entry </span></a>
             </li>
 
 
             <li class="nav-item {{ 'admin/service-provider'== request()->path() ? 'active' :'' }} {{ 'admin/add/service-provider'== request()->path() ? 'active' :'' }}">
                 <a class="nav-link" href="{{ url('admin/service-provider') }}">
-                    <i class="fa fa-street-view" aria-hidden="true"></i>
                     <span> Service Providers </span></a>
             </li>
 
             <li class="nav-item {{ 'admin/service/categories'== request()->path() ? 'active' :'' }}{{ 'admin/service-categories'== request()->path() ? 'active' :'' }}">
                 <a class="nav-link" href="{{ url('admin/service/categories')}}">
-                    <i class="fas fa-fw fa-th-list"></i>
-                    <span>Service Categories </span></a>
+                    <span>Categories </span></a>
             </li>
 
             <!-- Divider -->
@@ -140,15 +140,21 @@
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
+
             <!-- Main Content -->
             <div id="content">
+                                <div class="navbar-nav " style="background-color:white;">
+
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <!-- <div class="navbar-nav " style="background-color:black;"> -->
+
 
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
+                        
                     </button>
 
                     <!-- Topbar Search -->
@@ -156,6 +162,8 @@
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
+                                        <!-- <div class="navbar-nav " style="background-color:black;"> -->
+
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
